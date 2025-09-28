@@ -3,6 +3,7 @@
 import { useCallback, useMemo, useRef } from "react";
 import { useMotionValueEvent, useScroll, useTransform } from "motion/react";
 
+// https://www.youtube.com/watch?v=GDAZWW2mgYI
 export function ScrollingHeadphones() {
   const ref = useRef<HTMLCanvasElement>(null);
   const { scrollYProgress } = useScroll({
